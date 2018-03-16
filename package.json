@@ -2,7 +2,7 @@
   "name": "rapo-browserify-budo",
   "version": "1.0.0",
   "description": "A barebones Browserify project to get started with Rapid (ra) Prototyping (po) our Web projects",
-  "main": "entry.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "budo index.js --live --open",
@@ -36,5 +36,8 @@
     "rimraf": "^2.6.2",
     "uglifycss": "0.0.27",
     "uglifyify": "^4.0.4"
+  },
+  "dependencies": {
+    "request": "^2.85.0"
   }
 }
